@@ -1,0 +1,60 @@
+
+
+@inproceedings{Shakya2016,
+   author = {M. Shakya and \textbf{S. Duwal} and C. K. Kawan},
+   issue = {May},
+   pages = {202-211},
+   title = {Rapid Visual Damage Assessment of Masonry Buildings after 2015 \firstcap{Gorkha Earthquake}: A Case Study of \firstcap{Bhaktapur Municipality}},
+    booktitle= {International conference on earthquake engineering and post-disaster reconstruction planning},
+   year = {2016},
+}
+
+@inproceedings{gnyawali2016,
+   author = {K. Gnyawali and S. Maka and B.R. Adhikari and D. Chamlagain and \textbf{S. Duwal}, A. R. Dhungana},
+   booktitle= {International conference on earthquake engineering and post-disaster reconstruction planning},
+   title = {Spatial Implications of Earthquake Induced Landslides Triggered by the \firstcap{April 25 Gorkha Earthquake Mw }7.8: Preliminary Analysis and Findings},
+   year = {2016},
+}
+@inproceedings{joshi2018,
+   author = {R. Joshi and \textbf{S. Duwal} and S. Duwal},
+   city = {Kathmandu},
+   booktitle = {International Conference in Water, Environment and Climate Change, Knowledge Sharing and Partnership },
+   title = {Making \firstcap{Bhaktapur} a rain-efficient city},
+   year = {2018},
+}
+@inproceedings{bhattarai2023,
+   abstract = {A new artificial intelligence (AI) model, called Bagging-LMT - a combination of bagging ensemble and Logistic Model Tree (LMT) - is introduced for mapping flood susceptibility. A spatial database was generated for the Haraz watershed, northern Iran, that included a flood inventory map and eleven flood conditioning factors based on the Information Gain Ratio (IGR). The model was evaluated using precision, sensitivity, specificity, accuracy, Root Mean Square Error, Mean Absolute Error, Kappa and area under the receiver operating characteristic curve criteria. The model was also compared with four state-of-the-art benchmark soft computing models, including LMT, logistic regression, Bayesian logistic regression, and random forest. Results revealed that the proposed model outperformed all these models and indicate that the proposed model can be used for sustainable management of flood-prone areas.},
+   author = {Y. Bhattarai and \textbf{S. Duwal}},
+   doi = {10.1016/j.envsoft.2017.06.012},
+   issn = {13648152},
+   booktitle = {International Conference on Water and Flood Management-ICWFM 2023},
+   pages = {194-195},
+   title = {Application of the Machine Learning in management of Flood Hazard in transboundary river},
+   volume = {95},
+   year = {2023},
+}
+@inproceedings{Duwal2023,
+   abstract = {A flood susceptibility map (FSM) can aid in flood preparedness and planning by identifying potential flooding areas using historical data and conditioning factors. However, traditional flood modeling approaches have limitations due to data availability, computational complexities, and non-linear behavior. In contrast, machine learning algorithms, combined with increased computation capacity and GIS and remote sensing data, have revolutionized flood studies. In the case of Nepali river basins, flood susceptibility mapping using machine learning approaches is very limited or almost not started. This study trained and validated three machine learning algorithms: Support Vector Machine (SVM), Random Forest (RF), and Artificial Neural Networks (ANN) using flood incident data across the Karnali River Basin (KRB) of Nepal to fill the gap in understanding the use of machine learning approach for flood studies of Nepal's River basins. The training data set was based on flood inventory data prepared using different flood databases and remote sensing data such as Sentinel-1 SAR imagery. A 15-fold cross-validation approach was used to increase the performance of the model. The geospatial database of ten flood conditioning factors used for modeling included aspect, curvature, distance to the river (DTR), normalized difference vegetation index (NDVI), elevation, slope, rainfall, soil, stream power index (SPI), and topographical wetness index (TWI) after multicollinearity and Pearson correlation tests. The variation Inflation Factor (VIF)s are less than 10, and tolerances are higher than 0.1 for all the factors. We used the Area Under the Curve for Receiver Operating Cost (AUROC) for success and prediction rates to test the ML algorithms' performance and validate the models. The prepared susceptibility map was overlayed with different layers, such as buildings and population, to look at the possible impacts of flood in KRB. These findings can aid decision-making processes for flood management and help policymakers prepare and plan effectively to mitigate the impacts of floods.},
+   author = {\textbf{S. Duwal} and P. M. Pradhan and Y. Bhattarai and D. Liu},
+   booktitle = {International Conference on Technologies for Computer, Electrical and Electronics and Communications (ICTCEEL2023)},
+   keywords = {Disaster Management,Flood Modeling,Karnali River Basin,Machine Learning},
+   title = {Machine Learning for Flood Susceptibility Mapping and Assessment of Associated Risk to the Population and Buildings in the \firstcap{Karnali River Basin}},
+   url = {https://www.researchgate.net/publication/375073525},
+   year = {2023},
+}
+@inproceedings{dodo2024,
+author ={S.O. Mangkhaseum and \textbf{S. Duwal} and Y. Bhattarai and A. Hanazawa},
+booktitle = {SPIE Future Sensing Technologies},
+title={Harnessing multisatellite remote sensing data and machine learning for flood risk assessment in \firstcap{Nam Ngum River Basin, Lao PDR}},
+url ={https://spie.org/FST/conferencedetails/future-sensing-technologies#_=_},
+        year= {2024},
+},
+@inproceedings{IDBAP2024,
+    author = {S.O. Mangkhaseum  and Y. Bhattarai and \textbf{S. Duwal} and A. Hanazawa},
+    title = {Flood susceptibility mapping using publicly available
+            big data with \firstcap{Google Earth Engine} and deep learning algorithms},
+    booktitle = {The 5th International Conference on Big Data Analytics and Practices 2024 (IBDAP 2024)},
+    url = {https://www.ibdap.org/program-2024/},
+    year = {2024}
+}
+}
