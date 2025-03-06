@@ -1,0 +1,106 @@
+\usepackage{stringstrings}
+@article{Duwal2023,
+   author = {\textbf{S. Duwal} and D. Liu and P. M. Pradhan},
+   doi = {10.1080/19475705.2023.2217321},
+   issn = {1947-5705},
+   issue = {1},
+   journal = {Geomatics, Natural Hazards and Risk},
+   month = {12},
+   title = {Flood susceptibility modeling of the Karnali river basin of Nepal using different machine learning approaches},
+   volume = {14},
+   publisher = {Taylor \& Francis},
+   url = {https://www.tandfonline.com/doi/full/10.1080/19475705.2023.2217321},
+   year = {2023},
+   abstract={The Karnali River Basin (KRB) comprises the longest river in Nepal, located south of the Himalayas. Despite its high susceptibility to floods, the basin lacks detailed studies. Proper floodplain management is essential to reduce the impacts due to rising flood frequency, magnitude, and severity aggravated by climate change. This research applies three machine learning techniques, Support Vector Machine (SVM), Random Forest (RF), and Artificial Neural Networks (ANN), to flood event data from the KRB. Ten flood conditioning factors; Aspect, curvature, distance to a river (DTR), normalized difference vegetation index (NDVI), elevation, slope, rainfall, soil, stream power index (SPI), and topographical wetness index (TWI) were selected based on the multicollinearity test. The parameter performance was evaluated using the Cohen Kappa Score, with NDVI having the greatest influence, followed by elevation, DTR, curvature, and TWI. Based on the Area Under the Curve of Receiver Operating Characteristics (AUROC), SVM outperformed RF, ANN, and ANN for FSM. The area of very high flood susceptible areas ranges from 0.8 to 2.5% of the basin area, most of them located in the south with low slopes and elevations. The results of this study suggest the use of SVM for FSM to help with proper floodplain management.},
+   keywords={Flood susceptibility modeling,machine learning algorithm,Karnali River Basin,Nepal} 
+}
+@article{Shakya2021,
+   abstract = {Bhaktapur municipality, one of the historic urban area, suffered heavy damage to many of its public residential buildings due to April 25, 2015, Gorkha (Nepal) earthquake. Immediately after this devastating earthquake, rapid visual damage assessment of 3979 buildings, in seventeen wards of Bhaktapur municipality, was carried out. This study was motivated to bring consciousness, revealing the vulnerable parameters of traditional masonry construction practice, for future safer buildings construction practice at this neighbourhood. Moreover, the establishment of 2105 Gorkha earthquake induced damage databases are undertaken, aiming to increase the availability of damage data for future research work. In this paper, the results obtained from comparative analysis of damage database and chi-square test for its validity is presented. Nevertheless, it is necessary to carry out detail damage assessment to identify the seismic sensitivity of the common structural components.},
+   author = {M. Shakya and C.K. Kawan and A.K. Gaire and \textbf{S. Duwal}},
+   doi = {10.1016/j.engfailanal.2021.105277},
+   issn = {13506307},
+   journal = {Engineering Failure Analysis},
+   keywords = {Chi-square test,Damage assessment,Gorkha earthquake,Traditional masonry,Visual screening},
+   title = {Post-earthquake damage assessment of traditional masonry buildings: A case study of \firstcap{Bhaktapur municipality} following 2015 \firstcap{Gorkha (Nepal) earthquake}},
+   volume = {123},
+   year = {2021},
+    publisher = {Elsevier},
+\\impact_factor={4}
+}
+@article{Shrestha2017,
+   author = {S. Shrestha and M. Reina Ortiz and M. Gutland and R. Napolitano and I. M. Morris and M. Santana Quintero and J. Erochko and S. Kawan and R. G. Shrestha and P. Awal and S. Suwal and \textbf{S. Duwal} and D. K. Maharjan},
+   doi = {10.5194/isprs-annals-IV-2-W2-243-2017},
+   issn = {21949050},
+   issue = {2W2},
+   journal = {ISPRS Annals of the Photogrammetry, Remote Sensing and Spatial Information Sciences},
+   title = {Digital Recording and NOon-destructive Techniques for the Understanding of Structural Performance for Rehabilitating Historic Structures at the \firstcap{Kathmandu Valley} after \firstcap{Gorkha Earthquake 2015}},
+   volume = {4},
+   year = {2017},
+   keywords = {IT Documentation, Risk Preparedness, Nepal, Built Heritage, Natural Hazards, Capacity-Building, Digital Workflows for Heritage Conservation, 3D Imaging, Georadar, Photogrammetry, Electronic Distance Measurements (EDM), Computer-Aided Drawing},
+
+   Abstract ={On 25 April 2015, the Gorkha earthquake of magnitude 7.8, severely damaged the cultural heritage sites of Nepal. In particular, the seven monument zones of the Kathmandu Valley World Heritage Site suffered extensive damage. Out of 195 surveyed monuments, 38 have completely collapsed and 157 partially damaged (DoA, 2015). In particular, the world historic city of Bhaktapur was heavily affected by the earthquake. There is, in general, a lack of knowledge regarding the traditional construction technology used in many of the most important temple monuments in Bhaktapur. To address this limitation and to assist in reconstruction and rehabilitation of the area, this study documents the existing condition of different historic structures in the Kathmandu Valley. In particular, the Nyatapola Temple is studied in detail. To record and document the condition of this temple, a combination of laser scanning and terrestrial and aerial photogrammetry are used. By also including evaluation of the temple and its supporting plinth structure using non-destructive evaluation techniques like geo-radar and micro-tremor dynamic analysis, this study will form the basis of a structural analysis study to assess the anticipated future seismic performance of the Nyatapola Temple.} 
+}
+@article{Duwal2023a,
+   author = {\textbf{S. Duwal} and Y. Bhattarai and R. Milapati and R. Talchabhadel},
+
+   title = {Charting the Course to Resilience: Hydrodynamic Modeling for Socio-economic Insights for Flood Risk Management in \firstcap{Nepal's} Ungauged \firstcap{Roshi River Catchment}},
+   issue = {6},
+   journal = {Journal of Hydrology and Meteorology},
+   keywords = {Flood Hazard Mapping,Hydrodynamic Model,Roshi River Catchment,Scenario-based modeling},
+   pages = {53-66},
+   volume = {11},
+   url = {https://doi.org/10.3126/jhm.v11i1.59666},
+   doi = {https://doi.org/10.3126/jhm.v11i1.59666},
+   year = {2023},
+   abstract= {Nepal, a Himalayan country with diverse topography, faces significant flood risks yearly. This study focuses on flood hazard mapping and vulnerability assessments for the Roshi River catchment (RRC), situated in the mid-hills of Nepal, by using hydrodynamic modeling and scenario-based approaches. The results obtained from probability distribution methods revealed varying flood magnitudes from 100 m3 /s to 1100 m3 /s. Inundation’s analysis showed plains near the Araniko Highway (AH42) and Panauti Municipality to be high-risk flood-prone areas. Croplands are the most susceptible, while the estimated number of people and buildings at risk varies from 4,000 to 7000 people in 1200 to 2600 buildings. Socio-economic analysis shows that a major portion of the population is from Tamang ethnicity, with relatively lower economic and educational status. Similarly, women in economically and socially disadvantaged communities are particularly at risk, emphasizing the need for increased awareness and support. Proactive flood disaster management strategies are crucial, especially for marginalized and agriculture-dependent communities. The strategically important RRC’s link to key cities, including Kathmandu, demands effective flood control measures. Hydrodynamic modeling with possible scenarios relating to socio-economic aspects can aid decision-making processes from local to central government levels to create a more resilient and disaster-resistant future for Nepal.} 
+}
+
+@article{Bhattarai31122024,
+author = {Y. Bhattarai and \textbf{S. Duwal} and S. Sharma and R. Talchabhadel},
+title = {Leveraging machine learning and open-source spatial datasets to enhance flood susceptibility mapping in transboundary river basin},
+journal = {International Journal of Digital Earth},
+volume = {17},
+number = {1},
+pages = {2313857},
+year = {2024},
+publisher = {Taylor \& Francis},
+doi = {10.1080/17538947.2024.2313857},
+URL = { 
+        https://doi.org/10.1080/17538947.2024.2313857 
+},
+eprint = { 
+    
+        https://doi.org/10.1080/17538947.2024.2313857
+}
+,
+    abstract = { Floods pose devastating effects on the resiliency of human and natural systems. flood risk management challenges are typically complicated in the transboundary river basin due to conflicting objectives between multiple countries, lack of systematic approaches to data monitoring and sharing, and limited collaboration in developing a unified system for hazard prediction and communication. An open-source, low-cost modeling framework that integrates open-source data and models can help improve our understanding of flood susceptibility and inform the design of equitable risk management strategies. This study integrates open-source datasets and machine -learning techniques to quantify flood susceptibility across the data-scare transboundary basin. The analysis focuses on the transboundary Gandak River Basin, spanning China, Nepal, and India, where damaging and recurring floods pose serious concern. flood susceptibility is assessed using four widely used machine learning techniques: Long-Short-Term-Memory, Random Forest, Artificial Neural Network, and Support Vector Machine. Our results exhibit the improved performance of Artificial Neural Network and Support Vector Machine in predicting flood susceptibility maps, revealing higher vulnerability in the southern plains. This study demonstrates that remote sensing and machine learning can improve flood prediction, hazard mapping, and susceptibility analysis in a data-scare environment. }
+}
+
+@article{doi:10.1080/19475705.2024.2357650,
+author = {S. O. Mangkhaseum and Y. Bhattarai and \textbf{S. Duwal} and A. Hanazawa},
+title = {Flood susceptibility mapping leveraging open-source remote-sensing data and machine learning approaches in \firstcap{ Nam Ngum River Basin (NNRB), Lao PDR}},
+journal = {Geomatics, Natural Hazards and Risk},
+volume = {15},
+number = {1},
+pages = {2357650},
+year ={2024},
+publisher = {Taylor \& Francis},
+doi = {https://doi.org/10.1080/19475705.2024.2357650},
+abstract = { Frequent floods caused by monsoons and rainstorms have significantly affected the resilience of human and natural ecosystems in the Nam Ngum River Basin, Lao PDR. A cost-efficient framework integrating advanced remote sensing and machine learning techniques is proposed to address this issue by enhancing flood susceptibility understanding and informed decision-making. This study utilizes remote sensing geo-datasets and machine learning algorithms (Random Forest, Support Vector Machine, Artificial Neural Networks, and Long Short-Term Memory) to generate comprehensive flood susceptibility maps. The results highlight Random Forest’s superior performance, achieving the highest train and test Area Under the Curve of Receiver Operating Characteristic (AUROC) (1.00 and 0.993), accuracy (0.957), F1-score (0.962), and kappa value (0.914), with the lowest mean squared error (0.207) and Root Mean Squared Error (0.043). Vulnerability is particularly pronounced in low-elevation and low-slope southern downstream areas (Central part of Lao PDR). The results reveal that 36%–53% of the basin’s total area is highly susceptible to flooding, emphasizing the dire need for coordinated floodplain management strategies. This research uses freely accessible remote sensing data, addresses data scarcity in flood studies, and provides valuable insights for disaster risk management and sustainable planning in Lao PDR.},
+keywords={Flood susceptibility modeling, machine learning algorithm,remote sensing,Nam Ngum River Basin, Laos},
+\\impact_factor={ 4.5},
+},
+@article{BHATTARAI2024200116,
+title = {Rapid prediction of urban flooding at street-scale using physics-informed machine learning-based surrogate modeling},
+journal = {Total Environment Advances},
+volume = {12},
+pages = {200116},
+year = {2024},
+issn = {2950-3957},
+doi = {https://doi.org/10.1016/j.teadva.2024.200116},
+url = {https://www.sciencedirect.com/science/article/pii/S2950395724000213},
+author = {Y. Bhattarai and S. Bista and R. Talchabhadel and \textbf{S. Duwal} and S. Sharma},
+keywords = {Urban flooding, Machine learning, Satellite observation, Surrogate modeling, Risk prediction},
+abstract = {Extreme weather has devastating impacts on communities, ecosystems, and infrastructure. Reliable and timely predictions of flood hazards are central to better manage risk and resources in terms of pre-disaster preparedness, emergency response, and post-disaster recovery. Near-real-time, high-resolution, street-scale urban flood prediction presents a unique challenge due to limited predictability of extreme rainfall, high computational cost for real-time simulations, and large uncertainty surrounding sophisticated models. In addition, resolving the complex dynamics, feedback, and nonlinear interactions between atmosphere, land surface hydrology, urban hydrodynamics and sub-surfacesurface drainage system using high-fidelity earth system model is conceptually and computationally challenging. In this study, we leverage the recent advances in geospatial datasets, hydrodynamic modeling and machine learning to improve the understanding and modeling of urban hydrodynamics, refine flood predictive capabilities and quantify the predictive uncertainty. Our study demonstrates that machine learning-based surrogate model of physics-based two-dimensional hydrodynamic model can substantially enhance computational efficiency while maintaining physical consistency and high predictive accuracy. This study converges foundational knowledge and advancements in big data analytics, atmospheric science, hydrology, and engineering to enhance urban resilience in the face of changing weather and climate extremes.}
+}
+}
