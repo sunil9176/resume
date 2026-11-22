@@ -1,0 +1,317 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.1 (9/12/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letter-paper, a5paper, legal paper, executive paper or landscape; font families: sans or roman
+\usepackage{standalone}
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{stringstrings}
+\usepackage[scale=0.88]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+\usepackage{fontawesome5}
+\providecommand{\firstcap}[1]{#1}
+%\usepackage[utf8]{inputenc}
+
+%\usepackage{booktabs}
+%\usepackage{fontawesome}
+\usepackage{marvosym} % For cool symbols.
+%\usepackage{hyperref}
+
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{SUNIL} % Your first name
+\familyname{DUWAL} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{Curriculum Vitae}
+\address{Khwopa College of Engineering}{Libali, Bhaktapur-08, 44800, Nepal}
+\mobile{(+977) 9851139795}
+
+
+%\fax{(000) 111 1113}
+ 
+%\social{github}{stefano-bragaglia}
+\email{duwal.sunil@khwopa.edu.np} 
+
+
+
+\homepage{khwopa.edu.np/}{khwopa.edu.np}
+
+% social link \faGithub, \faSkype, \faLinkedin,\faStackExchange, and \faStackOverflow
+\extrainfo{
+    \faGithub\ \href{https://github.com/sunil9176}{sunil9176} \quad
+    \faLinkedin\ \href{https://www.linkedin.com/in/sunil9176}{sunil9176} \quad
+    \faOrcid\ \href{https://orcid.org/0000-0002-3907-8302}{0000-0002-3907-8302}
+}
+
+
+
+%\social[linkedin][www.linkedin.com]{name}
+% The first argument is %the url for the clickable link, the second argument is the url displayed in the %template - this allows special characters to be displayed such as the tilde in this %example
+
+\photo[70pt][0.3pt]{SD_PP1.png} % The first bracket is the picture height, the second is %the thickness of the frame around the picture (0pt for no frame)
+%\quote{Not Attention, Patience is all we need.}
+
+%----------------------------------------------------------------------------------------
+
+\newcommand{\cvdoublecolumn}[2]{%
+  \cvitem[.75em]{}{%
+    \begin{minipage}[t]{\listdoubleitemcolumnwidth}#1\end{minipage}%
+    \hfill%
+    \begin{minipage}[t]{\listdoubleitemcolumnwidth}#2\end{minipage}%
+    }%
+}
+
+
+
+\usepackage{multibbl}
+\newcommand\Colorhref[3][orange]{\href{#2}{\small\color{#1}#3}}
+
+
+% \newcommand{\cvreference}[7]{%
+%     \textbf{#1}\newline% Name
+%     \ifthenelse{\equal{#2}{}}{}{\addresssymbol~#2\newline}%
+%     \ifthenelse{\equal{#3}{}}{}{#3\newline}%
+%     \ifthenelse{\equal{#4}{}}{}{#4\newline}%
+%     \ifthenelse{\equal{#5}{}}{}{#5\newline}%
+%     \ifthenelse{\equal{#6}{}}{}{\emailsymbol~\texttt{#6}\newline}%
+%     \ifthenelse{\equal{#7}{}}{}{\phonesymbol~#7}}
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2021--present}{PhD, Civil Engineering}{Kathmandu University}{Dhulikhel}{}
+{Flood Modelling and Flood Plain Management using hydrodynamic and Machine Learning Approaches}  % Arguments not required can be left empty
+
+\cventry{2010--2011 :}{Masters of Science,  Hydrology, Hydrogeology and Water Resource(120 HECS)}{Stockholm University}{Stockholm, Sweden}{}{}
+%{Advanced exposure to various areas of computer science along with a one and half year research project on Reversible Logic Synthesis.}
+%\cvitem{CGPA :}{7.96/10}
+\cventry{2011 :}{Extra Courses in MSc.(10 HECS)}{Lund University}{Lund, Sweden}{Introduction and advanced GIS (online course)}{}{}
+\cventry{2010--2011 :}{Extra Courses in MSc.(22.5 HECS)}{Stockholm University}{Stockholm, Sweden}{1. Scientific writing in English, 2. Positioning, Map Projection, and Digital Photogrammetry, 3. Remote Sensing and Digital Image Processing}{}{}
+\cventry{2003--2008 :}{Bachelor of Engineering, Civil Engineering}{Khwopa Engineering College}{Bhaktapur}{}{}
+%{Comprehensive exposure to the core areas of Computer Science along with a final year project on Data-mining}
+%\cvitem{CGPA :}{7.36/10}
+% \cventry{2008 :}{Higher Secondary Examination}{Belmuri Union Institution}{Belmuri}{}{ Mathematics, Physics, Chemistry, Biology, English, Bengali}
+% {}
+% \cvitem{Percentage :}{81.2 \%}
+% \cventry{2006 :}{Secondary Examination}{Belmuri Union Institution}{Belmuri}{}{ Mathematics, Physical Science, Life Science, Geography, History, English, Bengali}
+% {}
+% \cvitem{Percentage :}{90.8 \%}
+\section{Research Interests}
+\textbf{Geospatial Analysis, Machine Learning/AI, Disaster Management, Water Resource Management, Flood Modeling, Environmental Hazard Assessment}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATION SECTION
+%----------------------------------------------------------------------------------------
+
+
+\section{Publications}
+% \subsection{Journal Article(Accepted)}
+% \cventry{2019}{\textbf{Pratik Dutta}, Sriparna Saha, Sanket Pai and Aviral Kumar}{}{Protein-protein Interaction based Generative Model for Improving Gene Clustering}{In \textit{\textbf{Scientific Reports-Nature}} (\textbf{Impact Factor: 4.12)}}{}
+
+\subsection{Journal Articles}
+\newbibliography{journal}
+\bibliographystyle{journal}{plainyrrev}
+\nocite{journal}{*}
+\bibliography{journal}{journal}
+{\large \textsc{Refereed Journal Articles}}
+%\subsection{Communicated Journal Article}
+
+
+
+\subsection{In Conference Proceedings}
+\newbibliography{conference}
+\nocite{conference}{*}
+\bibliographystyle{conference}{plainyrrev}
+\bibliography{conference}{conference}
+{\large \textsc{Refereed Conference Publications}}
+
+\subsection{Posters Presentations and Participations}
+\newbibliography{others}
+\nocite{others}{*}
+\bibliographystyle{others}{plainyrrev}
+\bibliography{others}{others}
+{\large \textsc{Selected Abstracts for Poster}}
+
+\section {Masters Thesis Supervision}
+\cvitem{2025}{Glacial Lake Outburst Flood Modeling of Tsho Rolpa Glacial Lake using Remote Sensing and Hydraulic Modeling, Preeti Sakha}
+\cvitem{2025}{Rapid Flood Depth Prediction using Hydrodynamic Modeling and Machine Learning Approach of Roshi River Catchment, Renuka Karmacharya}
+\cvitem{2024}{Assessment of Liquefaction Potential of Kathmandu Valley Using Different Machine Learning Approaches, Bikesh Tamrakar}
+\cvitem{2024}{Machine Learning Techniques for Estimating Seismic Site Characterization Parameter: Vs30 in the Kathmandu Basin, Sachin Pokharel}
+\cvitem{2023}{Groundwater Pollution Vulnerability Map Using DRASTIC Approach of Bhaktapur, Nepal, Neha Sah}
+\cvitem{2022}{Flood Hazard Mapping of Roshi Khola, Kavre, Rabina Milapati}
+\cvitem{2016}{Landuse and Land Cover Change Analysis in Kathmandu Valley, Nisham Maharjan}
+
+
+
+
+
+
+
+
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Research Experience}
+% \subsection{Khwopa College of Engineering}
+
+% \cventry{March 2022 -- present}{\textit{Hydrodynamic Modeling for Socio-economic Insights for Flood Risk Management in Nepal's Ungauged Roshi River Catchment }}{}{}{}
+% {Hydrodynamic modeling using HEC-RAS for flood modeling at the ungauged Roshi River Basin to look at the socioeconomic aspects of flood based on educational status, ethnicity, economic and occupation status
+% }
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	Fellowships \& Awards
+%----------------------------------------------------------------------------------------
+
+\section{Grants-Awards}
+
+\cvitem{2020 --present}{\textit{\textbf{University Grants Commission (UGC), Nepal, PhD Research Grant}} as a PhD research scholar at Kathmandu University.}
+
+
+
+%----------------------------------------------------------------------------------------
+%	Academic achievements
+%----------------------------------------------------------------------------------------
+
+% \section{Academic Achievements \& Recognitions }
+
+
+% \cvitem{2018}{\textbf{Session Chair of the session "Prediction"} in \textbf{$25^{th}$ \textit{International Conference of Neural Information Processing} (ICONIP 2018)}, Siem Reap, Cambodia.}
+
+
+% \cvitem{2018}{Invited to conduct lab sessions in \textit{\textbf{"Training Program on Machine Learning For Ocean Acoustics and Climate Data Analysis"}}, during 22-36 October 2018 at \textbf{Defence R\&D Organization- Naval Physical \& Oceanographic Laboratory (DRDO-NPOL), Kochi, Kerala}.}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills}
+
+\cvitem{Programming Languages}{Python, MATLAB, R}
+\cvitem{GIS \& RS}{QGIS, ArcGIS, Google Earth Engine}
+\cvitem{Hydrology \& hydraulic modeling}{HEC-RAS, HEC-HMS}
+\cvitem{Machine Learning \& AI}{Machine Learning for classification and regression modeling with ANN, RNN, SVM, RF, etc.}
+\cvitem{Environmental Modeling}{ISEE systems STELLA for System Dynamics}
+
+
+\section{Key Academic Contributions \& Professional Service}
+\cvitem{Peer Reviewer}{Active peer reviewer for numerous reputed international journals in remote sensing, GIS applications, Disaster Management, Geoscience, Natural Hazards, and environmental management.}
+
+
+%----------------------------------------------------------------------------------------
+%	Position of Responsibility SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Job Experience}
+\cventry{2016-- Present}{Principal \& Associate Professor}{}{Khwopa College of Engineering}{}{}
+\cventry{2014-2016}{Vice-Principal}{}{Khwopa College of Engineering}{}{}
+\cventry{2013}{Lecturer}{}{Khwopa Engineering College}{}{}
+\cventry{2012}{Part-time faculty}{}{Khwopa College of Engineering \& Khwopa Engineering College}{}{}
+
+
+
+%----------------------------------------------------------------------------------------
+%	Teaching Assistantship SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Teaching Assistant}
+\cventry{2008 :}{Surveying, Water Supply, Transportation Engineering and Sanitary Engineering}{}{Nepal Engineering College}{}{}
+
+\section{Professional Job}
+\cventry{2007--2008:}{Civil Engineer}{}{Aviyaan Consulting Private Limited}{}{}
+
+\section{Professional Memberships}
+\cventry{2025-present:}{Student Member}{}{European Geoscience Union (EGU)}{}{}
+\cventry{2008-present:}{General Member}{}{Nepal Engineering Council}{}{}
+\cventry{2014-present:}{General Member}{}{Nepal Engineering Association}{}{}
+\cventry{2023-present:}{Individual Member}{}{South Asia Alliance of Disaster Research Institutes}{}{}
+\cventry{2025-present:}{Student Member}{}{American Geophysical Union(AGU)}{}{}
+%\section{Referees}
+
+
+% \begin{tabular}{lr}
+% % Referee 1
+% \begin{minipage}[t]{3in}
+% \textbf{Dr. XXXXX XXXXX}\\
+% \textit{Associate Professor, Department of} \\
+% \textit{Computer Science \& Engineering}\\
+% Institute name\\
+% \Letter\ \href{mailto:abc@gmail.com}{abc@gmail.com}
+% \end{minipage}
+% &
+% % Referee 2
+% \begin{minipage}[t]{3in}
+% \textbf{Dr. XXXXX XXXXX}\\
+% \textit{Associate Professor, Department of} \\
+% \textit{Computer Science \& Engineering}\\
+% Institute name\\
+% \Telefon\ +(601) 877-6236\\
+% \Letter\ \href{mailto:abc@gmail.com}{abc@gmail.com}
+% \end{minipage}
+% \\
+% \\ % Additional newline for spacing.
+% % Referee 3
+% \begin{minipage}[t]{3in}
+% \textbf{Dr. XXXXX XXXXX}\\
+% \textit{Associate Professor, Department of} \\
+% \textit{Computer Science \& Engineering}\\
+% Institute name\\
+% \Telefon\ +(601) 877-6236\\
+% \Letter\ \href{mailto:abc@gmail.com}{abc@gmail.com}
+% \end{minipage}
+% &
+% \\
+% \end{tabular}
+
+
+\end{document}
